@@ -17,10 +17,22 @@ const Projects = () => (
             <Hr />
           </TitleContent>
           <CardInfo>{project.description}</CardInfo>
-          </BlogCard>
+          <div>
+            <TitleContent>Stack</TitleContent>
+            <TagList>
+              {project.tags.map((tag, i) => (
+                <Tag key={i}>{tag}</Tag>
+              ))}
+            </TagList>
+          </div>
+          <UtilityList>
+            <ExternalLinks href={project.source}>Code</ExternalLinks>
+            <ExternalLinks href={project.visit}>Live Site</ExternalLinks>
+          </UtilityList>
+        </BlogCard>
       ))}
-          </GridContainer>
-        </Section>
-      );
+    </GridContainer>
+  </Section>
+);
 
-      export default Projects;
+export default Projects;

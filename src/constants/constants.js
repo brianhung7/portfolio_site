@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'The Exhibit',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
       image: 'https://i.imgur.com/oimU1fT.jpg',
       tags: ['Mongo', 'Express', 'Node'],
     source: 'https://github.com/brianhung7/TheExhibit',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Wayfarer',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
     image: 'https://i.imgur.com/oimU1fT.jpg',
     tags: ['Django','PostgreSQL'],
     source: 'https://github.com/brianhung7/project-wayfare',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'TicketDiary',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
       image: 'https://i.imgur.com/oimU1fT.jpg',
       tags: ['Mongo', 'Express', 'Node'],
     source: 'https://github.com/brianhung7/TicketDiary',
