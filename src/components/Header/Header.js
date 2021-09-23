@@ -9,12 +9,12 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20' }}>
-          <DiCssdeck size="3rem" /> <span>Brian Pham</span>
+        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '8px' }}>
+          <DiCssdeck size="4rem" /> <span>Brian Pham</span>
         </a>
       </Link>
     </Div1>
-    <Div2>
+    <Div2 style={{marginTop:"10px"}}>
       <li>
         <Link href="#projects">
           <NavLink>
@@ -23,7 +23,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#technologies">
+        <Link href="#tech">
           <NavLink>
             Technologies
           </NavLink>
@@ -37,15 +37,15 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
-    <Div3>
-      <SocialIcons href="github.com">
-        <AiFillGithub size="3 rem" />
+    <Div3 style={{marginBottom:"0px"}} > 
+      <SocialIcons href="https://github.com/brianhung7/">
+        <AiFillGithub size="4rem" />
       </SocialIcons>
-      <SocialIcons href="linkedin.com">
-        <AiFillLinkedin size="3 rem" />
+      <SocialIcons href="https://www.linkedin.com/in/brianpham-se/">
+        <AiFillLinkedin size="4rem" />
       </SocialIcons>
-      <SocialIcons href="brian_van_pham@yahoo.com">
-        <AiOutlineMail size="3 rem" />
+      <SocialIcons href="mailto:brian_van_pham@yahoo.com">
+        <AiOutlineMail size="4rem" />
       </SocialIcons>
     </Div3>
   </Container>
