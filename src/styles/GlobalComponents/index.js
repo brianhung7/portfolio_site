@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import theme from "../../themes/default";
 
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
