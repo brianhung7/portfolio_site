@@ -3,6 +3,9 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
+import { SocialIcons } from '../Header/HeaderStyles';
+import { CgWebsite } from 'react-icons/cg'
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -26,8 +29,12 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={project.source}>Code</ExternalLinks>
-            <ExternalLinks href={project.visit}>Live Site</ExternalLinks>
+            <SocialIcons href="https://github.com/brianhung7/">
+              <AiFillGithub size="4rem" />
+            </SocialIcons>
+            <SocialIcons href="https://github.com/brianhung7/">
+              <CgWebsite size="4rem" />
+            </SocialIcons>
           </UtilityList>
         </BlogCard>
       ))}
