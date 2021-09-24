@@ -1,7 +1,11 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, TechTable } from './TechnologiesStyles';
+import { TechnologyList } from '../../constants/constants';
+
+
+
 
 const Technologies = () => (
   <Section id="tech">
@@ -11,39 +15,28 @@ const Technologies = () => (
     <SectionText>
       Fullstack web developer
     </SectionText>
-    <List>
-    <ListItem>
-        <DiFirebase size="3rem" />
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            React.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiFirebase size="3rem" />
-        <ListContainer>
-          <ListTitle>Back-end</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiFirebase size="3rem" />
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>
+    <TechTable>
+      <tr>
+        <td>Javascript</td>
+        <td>Javascript</td>
+        <td>Javascript</td>
+        <td>Javascript</td>
+      </tr>      
+      <tr>
+        <td>Javascript</td>
+        <td>Javascript</td>
+        <td>Javascript</td>
+        <td>Javascript</td>
+      </tr>      
+      <tr>
+        <td>Javascript</td>
+        <td>Javascript</td>
+        <td>Javascript</td>
+        <td>Javascript</td>
+      </tr>
+    </TechTable>
   </Section>
+
 );
 
 export default Technologies;

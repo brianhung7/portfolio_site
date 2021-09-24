@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
-
+import { ImSpinner9 } from "react-icons/im";
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
@@ -10,7 +9,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '8px' }}>
-          <DiCssdeck size="4rem" /> <span>Brian Pham</span>
+          <ImSpinner9 size="4rem" /> <span style={{paddingLeft:'10px'}}>Brian Pham</span>
         </a>
       </Link>
     </Div1>

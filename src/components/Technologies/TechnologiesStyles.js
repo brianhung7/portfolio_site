@@ -22,6 +22,10 @@ export const ImageContainer = styled.div`
     margin-top: 16px;
   }
 `
+export const TechTable = styled.table`
+  background-color:blue;
+`
+
 
 export const MainImage = styled.img`
   width: 100%;

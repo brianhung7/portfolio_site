@@ -34,3 +34,7 @@ export const TimeLineData = [
   {year:2021, text: "Complete Software Engineering program from General Assembly"}
 
 ];
+
+export const TechnologyList = [ 
+  'Javascript', "Python", "Django", "PostgreSQL", "Node.js", "Express.js", "MongoDB", "Mongoose", "AWS", "Typescript", "React", "HTML5", "CSS3", "DTL", "EJS", "RESTful Routing"  
+]
