@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
 import { ImSpinner9 } from "react-icons/im";
+import {IoDocumentTextSharp} from "react-icons/io5";
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
@@ -37,14 +38,17 @@ const Header = () => (
       </li>
     </Div2>
     <Div3 style={{marginBottom:"0px"}} > 
-      <SocialIcons href="https://github.com/brianhung7/">
+      <SocialIcons href="https://github.com/brianhung7/" title="Github">
         <AiFillGithub size="4rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/brianpham-se/">
+      <SocialIcons href="https://www.linkedin.com/in/brianpham-se/" title="LinkedIn">
         <AiFillLinkedin size="4rem" />
       </SocialIcons>
-      <SocialIcons href="mailto:brian_van_pham@yahoo.com">
+      <SocialIcons href="mailto:brian_van_pham@yahoo.com" title="Email">
         <AiOutlineMail size="4rem" />
+      </SocialIcons>
+      <SocialIcons href="resume" title="Resume">
+        <IoDocumentTextSharp size="4rem" />
       </SocialIcons>
     </Div3>
   </Container>

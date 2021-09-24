@@ -29,10 +29,10 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <SocialIcons href="https://github.com/brianhung7/">
+            <SocialIcons href="https://github.com/brianhung7/" title="Github">
               <AiFillGithub size="4rem" />
             </SocialIcons>
-            <SocialIcons href="https://github.com/brianhung7/">
+            <SocialIcons href="https://github.com/brianhung7/" title="Live Site">
               <CgWebsite size="4rem" />
             </SocialIcons>
           </UtilityList>

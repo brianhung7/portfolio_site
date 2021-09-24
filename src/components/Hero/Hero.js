@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         I am a software engineer who is looking to improve myself and lorem ipsum
       </SectionText>
-      <Button onClick={( ) => window.location='brian.texts@gmail.com'}>Contact me</Button>
+      <Button onClick={( ) => window.location='mailto:brian.texts@gmail.com'}>Contact me</Button>
     </LeftSection>
   </Section>
 );
