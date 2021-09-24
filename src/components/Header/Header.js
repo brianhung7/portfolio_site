@@ -4,6 +4,7 @@ import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
 import { ImSpinner9 } from "react-icons/im";
 import {IoDocumentTextSharp} from "react-icons/io5";
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import ReactTooltip from 'react-tooltip';
 
 const Header = () => (
   <Container>
@@ -38,19 +39,21 @@ const Header = () => (
       </li>
     </Div2>
     <Div3 style={{marginBottom:"0px"}} > 
-      <SocialIcons href="https://github.com/brianhung7/" title="Github">
+      <SocialIcons href="https://github.com/brianhung7/" data-tip="Github"> 
         <AiFillGithub size="4rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/brianpham-se/" title="LinkedIn">
+      <SocialIcons href="https://www.linkedin.com/in/brianpham-se/" data-tip="LinkedIn"> 
         <AiFillLinkedin size="4rem" />
       </SocialIcons>
-      <SocialIcons href="mailto:brian_van_pham@yahoo.com" title="Email">
+      <SocialIcons href="mailto:brian_van_pham@yahoo.com" data-tip="Email"> 
         <AiOutlineMail size="4rem" />
       </SocialIcons>
-      <SocialIcons href="resume" title="Resume">
+      <SocialIcons href="resume" data-tip="Resume"> 
         <IoDocumentTextSharp size="4rem" />
       </SocialIcons>
     </Div3>
+    
+    <ReactTooltip place="bottom" effect="solid" backgroundColor="grey"/>
   </Container>
 );
 
