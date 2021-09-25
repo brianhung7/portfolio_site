@@ -23,15 +23,18 @@ export const ImageContainer = styled.div`
   }
 `
 export const TechTable = styled.table`
-  // background-color:blue;
-  border-radius:10px;
-  border-spacing:15px;
+  border-radius:15px;
   border:3px solid gold;
+  border-collapse: collapse;
+  border-spacing: 0px 15px;
 `
 
 export const TableRow = styled.tr`
-  padding-top:15px;
   text-align:center;
+`
+
+export const TableData = styled.td`
+  padding:1.5rem;
 `
 
 export const MainImage = styled.img`
