@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ImageDiv } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
@@ -16,7 +16,9 @@ const Projects = () => (
     <GridContainer>
       {projects.map((project) => (
         <BlogCard key={project.id}>
+          <ImageDiv className="project__image" style={{backgroundImage:`url(${project.gif})`}}>
           <Img src={project.image} />
+          </ImageDiv>
           <TitleContent>
             <HeaderThree title>{project.title}</HeaderThree>
             <Hr />

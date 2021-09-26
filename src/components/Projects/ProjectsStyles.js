@@ -1,10 +1,20 @@
 import styled from 'styled-components';
 
+export const ImageDiv = styled.div`
+  background-size:cover;
+  display:table;
+`
+
 export const Img = styled.img`
   width:100%;
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  display:block;
+  transition: 1s linear;
+  &:hover{
+    opacity:0;
+  }
 `
 
 export const GridContainer = styled.section`

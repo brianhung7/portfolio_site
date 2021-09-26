@@ -11,7 +11,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '8px' }}>
-          <ImSpinner9 size="4rem" /> <span style={{paddingLeft:'10px'}}>Brian Pham</span>
+          <ImSpinner9 size="4rem" /> <span style={{paddingLeft:'10px',fontSize:'2rem'}}>Brian Pham</span>
         </a>
       </Link>
     </Div1>
