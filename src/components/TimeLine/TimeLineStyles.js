@@ -1,6 +1,17 @@
 
 import styled from 'styled-components'
 
+export const AvatarImage = styled.img`
+  width: 250px;
+  float: right;
+  margin-left: 20px;
+  border-radius: 15px;
+  border: 2px solid #13ADC7;
+  
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+
+`
+
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;

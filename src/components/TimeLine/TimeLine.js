@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, AvatarImage } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -27,27 +27,31 @@ const Timeline = () => {
   const handleScroll = () => {
     if (carouselRef.current) {
       const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
-
       setActiveItem(index);
     }
   }
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
+  /*
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
     }
-
     window.addEventListener('resize', handleResize);
   }, []);
+  */
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
-      <SectionText>
+      <br/>
+      <SectionDivider />
+      <SectionTitle main>About Me</SectionTitle>
+      <SectionText >
+      <AvatarImage src="https://i.imgur.com/oimU1fT.jpg"/>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </SectionText>
+        
+      </SectionText> 
       <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
         <>
           {TimeLineData.map((item, i) => (
@@ -114,7 +118,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      
     </Section>
   );
 };

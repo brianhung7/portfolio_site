@@ -14,6 +14,7 @@ padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
+
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -25,6 +26,8 @@ row-gap: 3rem;
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  
+  border: 2px solid #13ADC7;
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {

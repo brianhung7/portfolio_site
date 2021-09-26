@@ -10,8 +10,7 @@ import { TechnologyList } from '../../constants/constants';
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
       Fullstack web developer
     </SectionText>
@@ -41,6 +40,7 @@ const Technologies = () => (
         <TableData>Mongoose</TableData>
       </TableRow>
     </TechTable>
+    
   </Section>
 
 );
