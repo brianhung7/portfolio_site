@@ -6,6 +6,10 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+<<<<<<< HEAD
+=======
+import { SectionDivider } from '../styles/GlobalComponents';
+>>>>>>> main
 
 const Home = () => {
   return (
@@ -18,6 +22,10 @@ const Home = () => {
       <Technologies />
       <Timeline />
       {/* <Accomplishments /> */}
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
     </Layout>
   );
 };

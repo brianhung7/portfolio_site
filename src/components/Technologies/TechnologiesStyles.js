@@ -23,6 +23,7 @@ export const ImageContainer = styled.div`
   }
 `
 export const TechTable = styled.table`
+<<<<<<< HEAD
   background-color:blue;
   border-radius:10px;
   border-spacing:15px;
@@ -31,6 +32,26 @@ export const TechTable = styled.table`
 
 export const TableRow = styled.tr`
   padding-top:15px;
+=======
+  border:3px solid gold;
+  border-radius:15px;
+  // border-collapse: separate;
+  // border-spacing: 0px 15px;
+`
+
+export const TableRow = styled.tr`
+  text-align:center;
+`
+
+export const TableData = styled.td`
+  transition: .5s ease-in-out;
+  padding:1.5rem;
+  &:hover {
+    // background-color: #212d45;
+    transform: scale(1.2);
+    
+  }
+>>>>>>> main
 `
 
 export const MainImage = styled.img`
