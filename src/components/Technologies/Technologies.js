@@ -12,7 +12,7 @@ const Technologies = () => (
     <SectionDivider />
     <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
-      Fullstack web developer
+      My Development Toolbox
     </SectionText>
     <TechTable>
       <TableRow style={{backgroundColor:'rgba(255,255,255,.05)'}} >
