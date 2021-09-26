@@ -1,10 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-<<<<<<< HEAD
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-=======
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, AvatarImage } from './TimeLineStyles';
->>>>>>> main
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -31,36 +27,17 @@ const Timeline = () => {
   const handleScroll = () => {
     if (carouselRef.current) {
       const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
-<<<<<<< HEAD
-
-=======
->>>>>>> main
       setActiveItem(index);
     }
   }
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
-<<<<<<< HEAD
-=======
   /*
->>>>>>> main
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
     }
-<<<<<<< HEAD
-
-    window.addEventListener('resize', handleResize);
-  }, []);
-
-  return (
-    <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
-      <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </SectionText>
-=======
     window.addEventListener('resize', handleResize);
   }, []);
   */
@@ -75,7 +52,6 @@ const Timeline = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         
       </SectionText> 
->>>>>>> main
       <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
         <>
           {TimeLineData.map((item, i) => (
@@ -142,11 +118,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-<<<<<<< HEAD
-      <SectionDivider />
-=======
       
->>>>>>> main
     </Section>
   );
 };

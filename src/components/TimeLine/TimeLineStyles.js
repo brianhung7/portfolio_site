@@ -1,8 +1,6 @@
 
 import styled from 'styled-components'
 
-<<<<<<< HEAD
-=======
 export const AvatarImage = styled.img`
   width: 250px;
   float: right;
@@ -14,7 +12,6 @@ export const AvatarImage = styled.img`
 
 `
 
->>>>>>> main
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;

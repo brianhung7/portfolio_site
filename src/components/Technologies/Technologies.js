@@ -1,11 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-<<<<<<< HEAD
-import { List, ListContainer, ListItem, ListParagraph, ListTitle, TechTable, TableRow } from './TechnologiesStyles';
-=======
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, TechTable, TableRow,TableData } from './TechnologiesStyles';
->>>>>>> main
 import { TechnologyList } from '../../constants/constants';
 
 
@@ -14,43 +10,11 @@ import { TechnologyList } from '../../constants/constants';
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-<<<<<<< HEAD
-    <br />
-    <SectionTitle>Technologies</SectionTitle>
-=======
     <SectionTitle main>Technologies</SectionTitle>
->>>>>>> main
     <SectionText>
       Fullstack web developer
     </SectionText>
     <TechTable>
-<<<<<<< HEAD
-      <TableRow>
-        <td>Javascript</td>
-        <td>Python</td>
-        <td>Typescript</td>
-        <td>CSS3</td>
-      </TableRow>
-      <TableRow>
-        <td>Django</td>
-        <td>PostgreSQL</td>
-        <td>MongoDB</td>
-        <td>Restful Routing</td>
-      </TableRow>
-      <TableRow>
-        <td>React.js</td>
-        <td>Express.js</td>
-        <td>Node.js</td>
-        <td>EJS</td>
-      </TableRow>
-      <TableRow>
-        <td>DTL</td>
-        <td>AWS</td>
-        <td>HTML5</td>
-        <td>Mongoose</td>
-      </TableRow>
-    </TechTable>
-=======
       <TableRow style={{backgroundColor:'rgba(255,255,255,.05)'}} >
         <TableData>Javascript</TableData>
         <TableData>Python</TableData>
@@ -77,7 +41,6 @@ const Technologies = () => (
       </TableRow>
     </TechTable>
     
->>>>>>> main
   </Section>
 
 );
