@@ -7,7 +7,9 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 import ReactTooltip from 'react-tooltip';
 
 const Header = () => (
-  <Container>
+  <Container id="navbar" style={{position:'fixed', top:'0',left:'0',zIndex:'2',backgroundColor:'#0F1624',boxShadow: '3px 3px 20px rgba(80, 78, 78, 0.5)', transition:'top .3s', width:'100%', backdropFilter: 'blur(3px)',background:'rgb(15, 22, 36)',marginBottom:'20px'}}>
+  {/* <Container id="navbar" style={{position:'fixed',top:'0', transition:'top .3s', zIndex:'2'}}>  */}
+  {/* <Container> */}
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '8px' }}>
@@ -17,9 +19,9 @@ const Header = () => (
     </Div1>
     <Div2 style={{marginTop:"10px"}}>
       <li>
-        <Link href="#projects">
+      <Link href="#about">
           <NavLink>
-            Projects
+            About
           </NavLink>
         </Link>
       </li>
@@ -31,29 +33,29 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#about">
+      <Link href="#projects">
           <NavLink>
-            About
+            Projects
           </NavLink>
         </Link>
       </li>
     </Div2>
     <Div3 style={{marginBottom:"0px"}} > 
-      <SocialIcons href="https://github.com/brianhung7/" data-tip="Github"> 
+      <SocialIcons href="https://github.com/brianhung7/" data-tip="Github" target="_blank"> 
         <AiFillGithub size="4rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/brianpham-se/" data-tip="LinkedIn"> 
+      <SocialIcons href="https://www.linkedin.com/in/brianpham-se/" data-tip="LinkedIn" target="_blank"> 
         <AiFillLinkedin size="4rem" />
       </SocialIcons>
-      <SocialIcons href="mailto:brian_van_pham@yahoo.com" data-tip="Email"> 
+      <SocialIcons href="mailto:brian_van_pham@yahoo.com" data-tip="Email" > 
         <AiOutlineMail size="4rem" />
       </SocialIcons>
-      <SocialIcons href="resume" data-tip="Resume"> 
+      <SocialIcons href="resume" data-tip="Resume" target="_blank"> 
         <IoDocumentTextSharp size="4rem" />
       </SocialIcons>
     </Div3>
     
-    <ReactTooltip place="bottom" effect="solid" backgroundColor="grey"/>
+    <ReactTooltip  place="bottom" effect="solid" backgroundColor="grey"/>
   </Container>
 );
 

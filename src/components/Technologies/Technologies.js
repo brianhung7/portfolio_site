@@ -1,7 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle, TechTable, TableRow,TableData } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, TechTable, TableRow,TableData,TechTableContainer } from './TechnologiesStyles';
 import { TechnologyList } from '../../constants/constants';
 
 
@@ -14,6 +14,7 @@ const Technologies = () => (
     <SectionText>
       My Development Toolbox
     </SectionText>
+    <TechTableContainer>
     <TechTable>
       <TableRow style={{backgroundColor:'rgba(255,255,255,.05)'}} >
         <TableData>Javascript</TableData>
@@ -25,7 +26,7 @@ const Technologies = () => (
         <TableData>Django</TableData>
         <TableData>PostgreSQL</TableData>
         <TableData>MongoDB</TableData>
-        <TableData>Restful Routing</TableData>
+        <TableData>RESTful Routing</TableData>
       </TableRow>
       <TableRow style={{backgroundColor:'rgba(255,255,255,.05)'}}>
         <TableData>React.js</TableData>
@@ -40,7 +41,8 @@ const Technologies = () => (
         <TableData>Mongoose</TableData>
       </TableRow>
     </TechTable>
-    
+    </TechTableContainer>
+    <br/>
   </Section>
 
 );

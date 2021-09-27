@@ -6,7 +6,7 @@ export const Container = styled.div`
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
-  padding: 1rem;
+  // padding: 1rem;
   padding-top: 2rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -40,8 +40,9 @@ export const Div3 = styled.div`
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
+    justify-content: space-around;
     align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    grid-area: 1 / 4 / 2 / 5;
   }
 `;
 

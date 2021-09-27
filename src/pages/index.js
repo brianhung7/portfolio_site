@@ -11,13 +11,13 @@ import { SectionDivider } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
-      <Section grid>
+      <Section grid style={{marginTop:'100px'}}>
         <Hero />
         <BgAnimation />
       </Section>
+      <Timeline />
       <Projects />
       <Technologies />
-      <Timeline />
       {/* <Accomplishments /> */}
 
     </Layout>
