@@ -20,16 +20,16 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Always learning, improving, and innovating</Slogan>
         </CompanyContainer>
-        <SocialIcons href="https://github.com/brianhung7/" data-tip="Github"> 
+        <SocialIcons href="https://github.com/brianhung7/" data-tip="Github" target="_blank"> 
         <AiFillGithub size="4rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/brianpham-se/" data-tip="LinkedIn"> 
+      <SocialIcons href="https://www.linkedin.com/in/brianpham-se/" data-tip="LinkedIn" target="_blank"> 
         <AiFillLinkedin size="4rem" />
       </SocialIcons>
       <SocialIcons href="mailto:brian_van_pham@yahoo.com" data-tip="Email"> 
         <AiOutlineMail size="4rem" />
       </SocialIcons>
-      <SocialIcons href="resume" data-tip="Resume"> 
+      <SocialIcons href="resume" data-tip="Resume" target="_blank"> 
         <IoDocumentTextSharp size="4rem" />
       </SocialIcons>
       </SocialIconsContainer>

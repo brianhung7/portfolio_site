@@ -3,8 +3,10 @@ window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
-  } else {
+  } else if (window.matchMedia("(max-width: 700px)").matches){
     document.getElementById("navbar").style.top = "-90px";
+  } else {
+    document.getElementById("navbar").style.top = "-145px";
   }
   prevScrollpos = currentScrollPos;
 }
