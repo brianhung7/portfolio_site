@@ -7,6 +7,7 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import { SectionDivider } from '../styles/GlobalComponents';
+import ReactTooltip from 'react-tooltip';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Technologies />
       {/* <Accomplishments /> */}
 
+      <ReactTooltip place="bottom" effect="solid" backgroundColor="grey"/>
     </Layout>
   );
 };

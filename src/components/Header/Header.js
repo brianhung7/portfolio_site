@@ -7,13 +7,13 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 import ReactTooltip from 'react-tooltip';
 
 const Header = () => (
-  <Container id="navbar" style={{position:'fixed', top:'0',left:'0',zIndex:'2',backgroundColor:'#0F1624',boxShadow: '3px 3px 20px rgba(80, 78, 78, 0.5)', transition:'top .3s', width:'100%', backdropFilter: 'blur(3px)',background:'rgb(15, 22, 36)'}}>
+  <Container id="navbar" style={{position:'fixed', top:'0',left:'0',zIndex:'2',backgroundColor:'#0F1624',boxShadow: '3px 3px 20px rgba(80, 78, 78, 0.5)', transition:'top .3s', width:'100%', backdropFilter: 'blur(10px)',background:'rgb(15, 22, 36)'}}>
   {/* <Container id="navbar" style={{position:'fixed',top:'0', transition:'top .3s', zIndex:'2'}}>  */}
   {/* <Container> */}
-    <Div1>
+    <Div1 style={{marginLeft:'2rem'}}>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '8px' }}>
-          <ImSpinner9 size="4rem" /> <span style={{paddingLeft:'10px',fontSize:'2rem'}}>Brian Pham</span>
+          <ImSpinner9 size="4rem" /> <span style={{paddingLeft:'2rem',fontSize:'2rem'}}>Brian Pham</span>
         </a>
       </Link>
     </Div1>
@@ -55,7 +55,7 @@ const Header = () => (
       </SocialIcons>
     </Div3>
     
-    <ReactTooltip  place="bottom" effect="solid" backgroundColor="grey"/>
+    {/* <ReactTooltip  place="bottom" effect="solid" backgroundColor="grey"/> */}
   </Container>
 );
 

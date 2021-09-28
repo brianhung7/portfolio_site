@@ -43,8 +43,9 @@ const Projects = () => (
         </BlogCard>
       ))}
       
-      <ReactTooltip place="bottom" effect="solid" backgroundColor="grey"/>
     </GridContainer>
+    
+    {/* <ReactTooltip place="bottom" effect="solid" backgroundColor="grey"/> */}
   </Section>
 );
 
