@@ -30,6 +30,17 @@ export const projects = [
     visit: 'https://theticketdiary.herokuapp.com/',
     id: 2,
   },
+  {
+    title: 'Island Survival',
+    description:"A browser game where you crashed on an island and have to survive by managing health, thirst, and hunter to 10 years before escaping to win. An easter egg and the true ending can be found if you name yourself 'Wilson'. The game utilizes The Simpsons assets for animations and user experience enhancements. Players have the option of choosing different characters to play as, which will accordingly adjust the assets they are served during gameplay.",
+    image: 'https://i.imgur.com/k1UZLpM.png',
+    
+    gif: '/images/island.gif',
+    tags: ['Javascript','HTML5','CSS3','jQuery'],
+    source: 'https://github.com/brianhung7/Island-Survival',
+    visit: 'https://brianhung7.github.io/Island-Survival/',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
