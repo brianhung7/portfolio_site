@@ -7,8 +7,11 @@ export const AvatarImage = styled.img`
   margin-left: 20px;
   border-radius: 15px;
   border: 2px solid #13ADC7;
-  
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  @media ${props => props.theme.breakpoints.sm}{
+    margin-bottom:2rem;
+    align-self:center;
+  }
 
 `
 

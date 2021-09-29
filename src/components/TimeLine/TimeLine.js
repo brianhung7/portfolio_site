@@ -47,9 +47,9 @@ const Timeline = () => {
       <br/>
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
-      <SectionText >
+      <SectionText>
       <AvatarImage src="https://i.imgur.com/oimU1fT.jpg"/>
-      I am a Fullstack Developer with 6 years of experience building a small business seeking to convert my proven business
+      I am a Software Engineer with 6 years of experience building a small business seeking to convert my proven business
 development skills into software development. I specialize in MongoDB, Express, React, Node (MERN) and Django
 fullstack web development to build applications alongside API systems. I am a lifelong student that is always looking to
 improve myself both personally and professionally each day. I believe my ability to work in collaborative environments
