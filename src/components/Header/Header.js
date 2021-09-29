@@ -50,7 +50,7 @@ const Header = () => (
       <SocialIcons href="mailto:brian_van_pham@yahoo.com" data-tip="Email" >
         <AiOutlineMail size="4rem" />
       </SocialIcons>
-      <SocialIcons href="resume" data-tip="Resume" target="_blank">
+      <SocialIcons href="/BrianResume.pdf" data-tip="Resume" target="_blank">
         <IoDocumentTextSharp size="4rem" />
       </SocialIcons>
     </Div3>
