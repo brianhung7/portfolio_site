@@ -49,7 +49,11 @@ const Timeline = () => {
       <SectionTitle main>About Me</SectionTitle>
       <SectionText >
       <AvatarImage src="https://i.imgur.com/oimU1fT.jpg"/>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      I am a Fullstack Developer with 6 years of experience building a small business seeking to convert my proven business
+development skills into software development. I specialize in MongoDB, Express, React, Node (MERN) and Django
+fullstack web development to build applications alongside API systems. I am a lifelong student that is always looking to
+improve myself both personally and professionally each day. I believe my ability to work in collaborative environments
+with transparent communication skills make me an excellent developer.
         
       </SectionText> 
       <CarouselContainer ref={carouselRef} onScroll={handleScroll} >

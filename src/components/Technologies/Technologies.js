@@ -32,13 +32,19 @@ const Technologies = () => (
         <TableData>React.js</TableData>
         <TableData>Express.js</TableData>
         <TableData>Node.js</TableData>
-        <TableData>EJS</TableData>
+        <TableData>Embedded JS</TableData>
       </TableRow>
       <TableRow>
         <TableData>DTL</TableData>
         <TableData>AWS</TableData>
         <TableData>HTML5</TableData>
-        <TableData>Mongoose</TableData>
+        <TableData>Bulma</TableData>
+      </TableRow>
+      <TableRow style={{backgroundColor:'rgba(255,255,255,.05)'}}>
+        <TableData>Bootstrap</TableData>
+        <TableData>jQuery</TableData>
+        <TableData>Java</TableData>
+        <TableData>C++</TableData>
       </TableRow>
     </TechTable>
     </TechTableContainer>
