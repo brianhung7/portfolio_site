@@ -117,10 +117,41 @@ transition: 0.3s ease;
 color: white;
 border-radius: 50px;
   padding: 8px;
+// &:hover {
+//     background-color: #212d45;
+//     transform: scale(1.2);
+//     cursor: pointer;
+//   }
 &:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
-    cursor: pointer;
-    
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: pulse 2s infinite;
+  transform:scale(1.2);
+  background-color: #212d45;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
   }
+  70% {
+      -webkit-box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 15px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
 `
