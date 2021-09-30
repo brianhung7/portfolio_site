@@ -7,7 +7,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 import ReactTooltip from 'react-tooltip';
 
 const Header = () => (
-  <Container id="navbar" style={{ position: 'fixed', top: '0', left: '0', zIndex: '2', backgroundColor: '#0F1624', boxShadow: '3px 3px 20px rgba(80, 78, 78, 0.5)', transition: 'top .3s', width: '100%', backdropFilter: 'blur(10px)', background: 'rgb(15, 22, 36)' }}>
+  <Container id="navbar" style={{ position: 'fixed', top: '0', left: '0', zIndex: '2', backgroundColor: 'rgba(15, 22, 36, 0.9)', boxShadow: '3px 3px 20px rgba(80, 78, 78, 0.5)', transition: 'top .3s', width: '100%', backdropFilter: 'blur(10px)', background: 'rgb(15, 22, 36)' }}>
     {/* <Container id="navbar" style={{position:'fixed',top:'0', transition:'top .3s', zIndex:'2'}}>  */}
     {/* <Container> */}
     <Div1 style={{ marginLeft: '2rem' }}>

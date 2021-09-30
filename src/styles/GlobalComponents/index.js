@@ -92,7 +92,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -107,6 +107,7 @@ export const SectionText = styled.p`
     padding-bottom: 16px;
     display:flex;
     flex-direction:column;
+    text-align:justify;
   }
 `
 
