@@ -21,7 +21,7 @@ const Home = () => {
       <Technologies />
       {/* <Accomplishments /> */}
 
-      <ReactTooltip place="bottom" effect="solid" backgroundColor="grey"/>
+      <ReactTooltip className="tooltip" place="bottom" effect="solid" backgroundColor="slategrey"/>
     </Layout>
   );
 };

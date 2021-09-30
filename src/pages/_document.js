@@ -37,6 +37,8 @@ export default class MyDocument extends Document {
           <script src="/scripts/navbar.js" defer></script>
           <title>Brian Pham</title>
           <link rel="icon" href="/images/logo.png" type="image/icon type"></link>
+          
+          <link href="/styles.css" rel="stylesheet" />
         </Head>
         <body>
           <Main />

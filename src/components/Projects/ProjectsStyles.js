@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const ImageDiv = styled.div`
   background-size:cover;
   display:table;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
 `
 
 export const Img = styled.img`
@@ -11,6 +13,8 @@ export const Img = styled.img`
   object-fit: cover;
   overflow: hidden;
   display:block;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
   transition: 1s linear;
   &:hover{
     opacity:0;
