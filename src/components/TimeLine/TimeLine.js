@@ -49,12 +49,9 @@ const Timeline = () => {
       <SectionTitle main>About Me</SectionTitle>
       <SectionText>
       <AvatarImage src="https://i.imgur.com/oimU1fT.jpg"/>
-      I am a Software Engineer with 6 years of experience building a small business seeking to convert my proven business
-development skills into software development. I specialize in MongoDB, Express, React, Node (MERN) and Django
-fullstack web development to build applications alongside API systems. I am a lifelong student that is always looking to
-improve myself both personally and professionally each day. I believe my ability to work in collaborative environments
-with transparent communication skills make me an excellent developer.
-        
+      Hello! My name is Brian and I am a software engineer who enjoys designing and developing things that live on the internet. My interest in web development began when I was playing around with customizing my GeoCities website back when dinosaurs roamed. This was further cultivated when I took my first programming/computing course in college which I loved so much that I obtained a Specialization in Computer Science from UCLA alongside my Bachelor's in Biology. 
+      <br/> <br/>
+        Fast forward to today and I've completed the Software Engineering program from General Assembly. I've developed several fullstack applications and worked alongside teams and clients to bring various projects to fruition. Please feel free to contact me about anything or to just say hello!
       </SectionText> 
       <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
         <>

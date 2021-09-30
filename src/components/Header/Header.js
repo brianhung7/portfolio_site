@@ -13,7 +13,8 @@ const Header = () => (
     <Div1 style={{ marginLeft: '2rem' }}>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '8px' }}>
-          <ImSpinner9 size="4rem" /> <span style={{ paddingLeft: '2rem', fontSize: '2rem' }}>Brian Pham</span>
+          <ImSpinner9 size="4rem" /> 
+          <span style={{ paddingLeft: '2rem', fontSize: '2rem' }}>Brian Pham</span>
         </a>
       </Link>
     </Div1>
