@@ -43,6 +43,7 @@ export const Div3 = styled.div`
     justify-content: space-around;
     align-items: center;
     grid-area: 1 / 4 / 2 / 5;
+    margin-left:5rem;
   }
 `;
 
