@@ -34,11 +34,10 @@ const GlobalStyles = createGlobalStyle`
   ::-webkit-scrollbar-track{
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
     background-color: #0F1624;
-    border-radius: 10px;
   }
 
   ::-webkit-scrollbar{
-	width: 10px;
+	width: 8px;
 	background-color: #F5F5F5;
   }
 
