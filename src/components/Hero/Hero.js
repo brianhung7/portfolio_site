@@ -7,7 +7,7 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <p style={{color:'#64ffda',marginBottom:'2rem'}}>
+      <p style={{color:'#64ffda',marginBottom:'2rem',fontSize:'2rem'}}>
         Hi! My name is
       </p>
       <UserName center>

@@ -4,7 +4,7 @@ export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
-  margin: 0 auto;
+  margin: 10vh auto;
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
@@ -21,13 +21,15 @@ export const Section = styled.section`
 
     width: calc(100vw - 32px);
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 20vh;
+    margin-bottom:15vh;
+    
   }
 `
 
 export const UserName = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-size: ${(props) => props.main ? '75px' : '66px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
