@@ -13,7 +13,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle style={{fontSize:'1.5rem'}}>Contact</LinkTitle>
-          <LinkItem href="mailto:brian_van_pham@yahoo.com" style={{fontSize:'2.5rem'}}>brian_van_pham@yahoo.com</LinkItem>
+          <LinkItem href="mailto:brianpham.dev@gmail.com" style={{fontSize:'2.5rem'}}>brianpham.dev@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -26,7 +26,7 @@ const Footer = () => {
       <SocialIcons href="https://www.linkedin.com/in/brianpham-se/" data-tip="LinkedIn" target="_blank"> 
         <AiFillLinkedin size="4rem" />
       </SocialIcons>
-      <SocialIcons href="mailto:brian_van_pham@yahoo.com" data-tip="Email"> 
+      <SocialIcons href="mailto:brianpham.dev@gmail.com" data-tip="Email"> 
         <AiOutlineMail size="4rem" />
       </SocialIcons>
       <SocialIcons href="/BrianPhamResume.pdf" data-tip="Resume" target="_blank"> 

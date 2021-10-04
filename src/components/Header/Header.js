@@ -48,7 +48,7 @@ const Header = () => (
       <SocialIcons href="https://www.linkedin.com/in/brianpham-se/" data-tip="LinkedIn" target="_blank">
         <AiFillLinkedin size="4rem" />
       </SocialIcons>
-      <SocialIcons href="mailto:brian_van_pham@yahoo.com" data-tip="Email" >
+      <SocialIcons href="mailto:brianpham.dev@gmail.com" data-tip="Email" >
         <AiOutlineMail size="4rem" />
       </SocialIcons>
       <SocialIcons href="/BrianPhamResume.pdf" data-tip="Resume" target="_blank">
