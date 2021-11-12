@@ -40,15 +40,18 @@ export default class MyDocument extends Document {
           
           <link href="/styles.css" rel="stylesheet" />
           
-          
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KY21BM1FXZ"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KY21BM1FXZ" />
+          <script
+
+            dangerouslySetInnerHTML={{
+              __html:`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
             gtag('js', new Date());
 
-            gtag('config', 'G-KY21BM1FXZ');
-          </script>
+            gtag('config', 'G-KY21BM1FXZ');`,
+            }}
+          />
         </Head>
         <body>
           <Main />
