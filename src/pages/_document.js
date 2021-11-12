@@ -39,6 +39,16 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/images/logo.png" type="image/icon type"></link>
           
           <link href="/styles.css" rel="stylesheet" />
+          
+          
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KY21BM1FXZ"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-KY21BM1FXZ');
+          </script>
         </Head>
         <body>
           <Main />
