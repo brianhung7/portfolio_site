@@ -47,7 +47,7 @@ export const TimeLineData = [
   {year:2015, text: "Graduated from UCLA with a Specialization in Computer Science, B.S. Biology"},
   {year:2016, text: "Began working as business owner in Ecommerce"},
   {year:2021, text: "Graduated in Software Engineering from General Assembly"},
-
+  {year:2022, text: "Jr Software Engineer at Entera.ai"},
 ];
 
 export const TechnologyList = [ 
