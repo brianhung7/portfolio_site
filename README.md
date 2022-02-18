@@ -4,7 +4,7 @@ First iteration of [BrianVPham.com](https://www.brianvpham.com/) built using Nex
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run
 
 ### `npm run dev`
 
