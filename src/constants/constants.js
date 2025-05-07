@@ -23,7 +23,7 @@ export const projects = [
   {
     title: 'TicketDiary',
     description: "Full stack social media website where users can discuss, like, favorite, and share their love of film. Collaborated in a team of two to specialize in development tasks as well as exercise pair programming skills. Applied RESTful programming with a MEN stack to handle CRUD operations.  Implemented user authentication, authorization, and sessions in the backend for security to verify and restrict users from accessing unauthorized portions of the website.",
-    image: 'https://camo.githubusercontent.com/dfce85617700d6168d879928a0940d1484241428483fd28504366a4126ca491d/68747470733a2f2f692e696d6775722e636f6d2f73516d314769392e706e67',
+    image: 'https://i.imgur.com/e8bZuwY.png',
     gif: 'https://i.imgur.com/BCIFpMC.gif',
     tags: ['MongoDB', 'Express', 'Node','Javascript'],
     source: 'https://github.com/brianhung7/TicketDiary',
